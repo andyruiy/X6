@@ -158,6 +158,9 @@ const data: MindMapData = {
       label: '分支主题1',
       width: 100,
       height: 40,
+       overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            whiteSpace: 'nowrap',
       children: [
         {
           id: '1-1-1',
